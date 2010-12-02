@@ -47,9 +47,9 @@ public class main extends Activity {
 		SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
 		envelope.setOutputSoapObject(request);
 
-		AndroidHttpTransport http_transport = new AndroidHttpTransport(URL);
+		//AndroidHttpTransport http_transport = new AndroidHttpTransport(URL);
 		try {
-			http_transport.call(SOAP_ACTION, envelope);
+			//http_transport.call(SOAP_ACTION, envelope);
 
 			SoapObject result = (SoapObject) envelope.bodyIn;
 			//Object result = (Object) envelope.bodyIn;
