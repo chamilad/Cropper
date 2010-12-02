@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">Cropper</string>
+    <string name="crop_name_label">Crop Code</string>
+    <string name="get_details_button">Get Details</string>
+</resources>

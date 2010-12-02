@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/crop_name_label" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="" android:id="@+id/crop_code" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	</LinearLayout>
+<Button android:text="@string/get_details_button" android:id="@+id/get_details_btn" android:onClick="onButtonClick" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<TextView android:text="" android:id="@+id/answer" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
